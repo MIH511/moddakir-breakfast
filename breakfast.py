@@ -333,7 +333,7 @@ def main():
     now = datetime.datetime.now(cairo_tz)
 
     # Set reminder time
-    local_reminder_time = now.replace(hour=14, minute=30, second=0, microsecond=0)
+    local_reminder_time = now.replace(hour=9, minute=50, second=0, microsecond=0)
 
     # If time already passed today, schedule for tomorrow
     if now > local_reminder_time:
